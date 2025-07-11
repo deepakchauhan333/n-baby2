@@ -1,0 +1,6 @@
+# In your local project
+echo ".env" >> .gitignore
+git rm --cached .env
+git add .gitignore
+git commit -m "Remove .env file from repo"
+git push
